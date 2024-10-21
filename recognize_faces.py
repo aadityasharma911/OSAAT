@@ -7,10 +7,7 @@ import base64
 import requests
 import json
 from PIL import Image
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
 
 # Load face encodings from file
 def load_face_encodings(encoding_file):
